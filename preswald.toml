@@ -1,0 +1,23 @@
+[project]
+title = "Liqin Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Liqin Preswald Project"
+logo = "images/apple.png"
+favicon = "images/applesmall.ico"
+# primaryColor = "#F89613"
+primaryColor = "#F22213"
+
+[data.wine_csv]
+# [data.sample_csv]
+type = "csv"
+# path = "data/sample.csv"
+path = "data/wine.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
